@@ -1,0 +1,20 @@
+{
+  "name": "zurich_gablerstrasse",
+  "place": null,
+  "center_lat": 47.35919,
+  "center_lon": 8.52895,
+  "crs": "EPSG:2056",
+  "origin_x": 2681768.4372926224,
+  "origin_y": 1245468.330429801,
+  "width_m": 1200.0,
+  "height_m": 950.0,
+  "cell_m": 2.0,
+  "all_touched": true,
+  "min_obstacle_height_m": null,
+  "n_footprints": 864,
+  "n_obstacle_footprints": 864,
+  "obstacle_fraction": 0.2596070175438597,
+  "created_utc": "2026-11-10T18:11:56+00:00",
+  "source": "OpenStreetMap buildings via osmnx",
+  "licence": "\u00a9 OpenStreetMap contributors, ODbL"
+}

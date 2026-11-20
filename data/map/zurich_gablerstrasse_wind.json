@@ -1,0 +1,195 @@
+{
+  "source": "ERA5 reanalysis via Open-Meteo historical weather API (archive-api.open-meteo.com), CC BY 4.0",
+  "model": "era5",
+  "requested_lat": 47.35919,
+  "requested_lon": 8.52895,
+  "grid_lat": 47.25,
+  "grid_lon": 8.5,
+  "grid_elevation_m": 442.0,
+  "downloaded_utc": "2026-11-10T18:03:32+00:00",
+  "years": [
+    2015,
+    2024
+  ],
+  "hours": 87672,
+  "z_ref_m": 100.0,
+  "cruise_altitude_m": 20.0,
+  "mean_building_height_m": 13.470965084649762,
+  "building_height_source": "area-weighted mean of 388 OSM heights",
+  "displacement_m": 9.429675559254832,
+  "roughness_length_m": 1.3470965084649764,
+  "profile_factor": 0.48954687398947855,
+  "gust_excess_median_ms": 3.08,
+  "prevailing_from_deg": 45.0,
+  "prevailing_share": 0.13803722967424034,
+  "design_wind_ms": 2.398779682548445,
+  "wind_limit_ms_placeholder": 10.0,
+  "share_gust_above_limit": 0.05373437357423123,
+  "share_mean_above_cruise_speed": 0.1468998083766767,
+  "speed_percentiles_ms": {
+    "10 m (ERA5)": [
+      1.39,
+      2.69,
+      3.31,
+      4.61
+    ],
+    "100 m (ERA5)": [
+      2.16,
+      4.63,
+      5.65,
+      7.96
+    ],
+    "20 m, mean": [
+      1.057,
+      2.267,
+      2.766,
+      3.897
+    ],
+    "20 m, gust": [
+      4.111,
+      8.267,
+      10.228,
+      15.366
+    ]
+  },
+  "sectors": [
+    {
+      "sector": 0,
+      "hours": 3503,
+      "mean": 0.8023,
+      "p90": 1.3404,
+      "share": 0.04
+    },
+    {
+      "sector": 1,
+      "hours": 6048,
+      "mean": 1.0487,
+      "p90": 1.71,
+      "share": 0.069
+    },
+    {
+      "sector": 2,
+      "hours": 12102,
+      "mean": 1.4397,
+      "p90": 2.3988,
+      "share": 0.138
+    },
+    {
+      "sector": 3,
+      "hours": 5435,
+      "mean": 1.0679,
+      "p90": 1.8407,
+      "share": 0.062
+    },
+    {
+      "sector": 4,
+      "hours": 3205,
+      "mean": 0.7668,
+      "p90": 1.3609,
+      "share": 0.0366
+    },
+    {
+      "sector": 5,
+      "hours": 2457,
+      "mean": 0.7428,
+      "p90": 1.3022,
+      "share": 0.028
+    },
+    {
+      "sector": 6,
+      "hours": 3224,
+      "mean": 0.8319,
+      "p90": 1.5225,
+      "share": 0.0368
+    },
+    {
+      "sector": 7,
+      "hours": 4575,
+      "mean": 1.1168,
+      "p90": 2.0512,
+      "share": 0.0522
+    },
+    {
+      "sector": 8,
+      "hours": 6364,
+      "mean": 1.0702,
+      "p90": 1.8603,
+      "share": 0.0726
+    },
+    {
+      "sector": 9,
+      "hours": 6936,
+      "mean": 1.1374,
+      "p90": 1.9337,
+      "share": 0.0791
+    },
+    {
+      "sector": 10,
+      "hours": 9349,
+      "mean": 1.512,
+      "p90": 2.7904,
+      "share": 0.1066
+    },
+    {
+      "sector": 11,
+      "hours": 8928,
+      "mean": 1.807,
+      "p90": 3.3975,
+      "share": 0.1018
+    },
+    {
+      "sector": 12,
+      "hours": 6379,
+      "mean": 1.4834,
+      "p90": 2.7914,
+      "share": 0.0728
+    },
+    {
+      "sector": 13,
+      "hours": 3710,
+      "mean": 1.1601,
+      "p90": 2.0816,
+      "share": 0.0423
+    },
+    {
+      "sector": 14,
+      "hours": 2975,
+      "mean": 0.8963,
+      "p90": 1.5861,
+      "share": 0.0339
+    },
+    {
+      "sector": 15,
+      "hours": 2482,
+      "mean": 0.8005,
+      "p90": 1.356,
+      "share": 0.0283
+    }
+  ],
+  "routes": {
+    "Main": {
+      "Length (m)": 1640.624,
+      "Airspeed, median (m/s)": 2.042,
+      "Airspeed, P95 (m/s)": 3.527,
+      "Max headwind, median (m/s)": 0.881,
+      "Max headwind, P95 (m/s)": 2.291,
+      "Hours with airspeed > 4 m/s somewhere (%)": 11.311
+    },
+    "Alternative 1": {
+      "Length (m)": 1650.902,
+      "Airspeed, median (m/s)": 2.044,
+      "Airspeed, P95 (m/s)": 3.523,
+      "Max headwind, median (m/s)": 0.914,
+      "Max headwind, P95 (m/s)": 2.296,
+      "Hours with airspeed > 4 m/s somewhere (%)": 11.549
+    },
+    "Alternative 2": {
+      "Length (m)": 1748.642,
+      "Airspeed, median (m/s)": 2.04,
+      "Airspeed, P95 (m/s)": 3.501,
+      "Max headwind, median (m/s)": 0.886,
+      "Max headwind, P95 (m/s)": 2.291,
+      "Hours with airspeed > 4 m/s somewhere (%)": 11.339
+    }
+  }
+}

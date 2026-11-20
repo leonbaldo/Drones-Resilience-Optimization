@@ -1,0 +1,45 @@
+{
+ "frame": "map metres, origin lower-left corner of zurich_gablerstrasse (1200 x 950 m), x east, y north",
+ "A_start_home": [
+  330.0,
+  150.0
+ ],
+ "B_goal_dataset": [
+  740.0,
+  860.0
+ ],
+ "B_goal_short_study": [
+  594.0,
+  464.0
+ ],
+ "landing_sites": {
+  "A (home)": [
+   330.0,
+   150.0
+  ],
+  "L1": [
+   572.0,
+   100.0
+  ],
+  "L2": [
+   228.0,
+   352.0
+  ],
+  "L3": [
+   684.0,
+   356.0
+  ],
+  "L4": [
+   544.0,
+   532.0
+  ]
+ },
+ "landing_site_open_radius_m": {
+  "A (home)": 12,
+  "L1": 22,
+  "L2": 27,
+  "L3": 71,
+  "L4": 12
+ },
+ "status": "L1-L4 are PLACEHOLDERS (ASSUMPTIONS R9): most open points away from building footprints, not verified landing areas"
+}

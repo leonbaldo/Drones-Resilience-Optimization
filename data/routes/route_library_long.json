@@ -1,0 +1,2970 @@
+{
+ "settings": {
+  "seed": 20261112,
+  "via_ellipse": 1.5,
+  "via_tolerance_m": 6.0,
+  "max_length_ratio": 1.8,
+  "min_separation_m": 15.0,
+  "tries_per_batch": 48,
+  "max_tries": 3000,
+  "band_edges_m": [
+   -600.0,
+   -225.0,
+   -75.0,
+   75.0,
+   225.0,
+   600.0
+  ],
+  "per_band": 30,
+  "along_range": [
+   0.15,
+   0.85
+  ],
+  "snap_m": 40.0,
+  "central_vias": 2
+ },
+ "shortest_m": 974.7119139911686,
+ "tries": 576,
+ "rejects": {
+  "too long": 6,
+  "planner: No route passed the checks (17 candidates)": 191,
+  "planner: No connection from Start to Via point 1. Move the point(s), ": 47,
+  "near-duplicate": 71,
+  "planner: No connection from Via point 1 to Via point 2. Move the poin": 9,
+  "planner: No route passed the checks (13 candidates)": 1,
+  "via point not free": 1,
+  "band full": 52,
+  "planner: No route passed the checks (14 candidates)": 1
+ },
+ "start": [
+  330.0,
+  150.0
+ ],
+ "goal": [
+  740.0,
+  860.0
+ ],
+ "map_file": "/Users/leonardobaldo/Documents/Futuro/Paper_Resilience/results/maps/zurich_gablerstrasse/zurich_gablerstrasse.mat",
+ "routes": [
+  {
+   "route_id": 0,
+   "try_id": -1,
+   "via": null,
+   "length_m": 974.7119139911686,
+   "benchmark": true,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 1,
+   "try_id": 2,
+   "via": [
+    [
+     407.0283504762612,
+     424.9398708542048
+    ]
+   ],
+   "length_m": 1205.3303950069621,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 2,
+   "try_id": 3,
+   "via": [
+    [
+     383.79048445620856,
+     604.5120545975875
+    ]
+   ],
+   "length_m": 1006.2422345610503,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 3,
+   "try_id": 4,
+   "via": [
+    [
+     190.95350807408147,
+     538.2076376490882
+    ]
+   ],
+   "length_m": 1145.1047370532233,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 4,
+   "try_id": 5,
+   "via": [
+    [
+     721.8728892395592,
+     358.56672167744784
+    ]
+   ],
+   "length_m": 1261.4522111986105,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 5,
+   "try_id": 8,
+   "via": [
+    [
+     447.81216097789184,
+     812.5420357431615
+    ]
+   ],
+   "length_m": 1309.280253955228,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 6,
+   "try_id": 9,
+   "via": [
+    [
+     225.53868352395705,
+     860.3349021448433
+    ]
+   ],
+   "length_m": 1313.1887968152237,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 7,
+   "try_id": 10,
+   "via": [
+    [
+     890.6723159125372,
+     34.37682353914215
+    ]
+   ],
+   "length_m": 1561.062095880958,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 8,
+   "try_id": 14,
+   "via": [
+    [
+     269.4780216391791,
+     548.9884291947417
+    ]
+   ],
+   "length_m": 1059.9723872755496,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 9,
+   "try_id": 16,
+   "via": [
+    [
+     794.6141452302745,
+     637.6142978486231
+    ]
+   ],
+   "length_m": 1154.5118820252405,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 10,
+   "try_id": 19,
+   "via": [
+    [
+     405.33535888552876,
+     856.0814684877452
+    ]
+   ],
+   "length_m": 1269.9253884505783,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 11,
+   "try_id": 20,
+   "via": [
+    [
+     742.2646628136127,
+     214.893566722537
+    ]
+   ],
+   "length_m": 1296.0301825379088,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 12,
+   "try_id": 22,
+   "via": [
+    [
+     616.0989899002366,
+     749.0341483664351
+    ]
+   ],
+   "length_m": 990.1757794893056,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 13,
+   "try_id": 23,
+   "via": [
+    [
+     330.02364352618673,
+     334.4933475669344
+    ]
+   ],
+   "length_m": 992.4021539484154,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 14,
+   "try_id": 24,
+   "via": [
+    [
+     328.7037623820482,
+     920.0939232796246
+    ]
+   ],
+   "length_m": 1392.7349234840588,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 15,
+   "try_id": 25,
+   "via": [
+    [
+     795.2703188104715,
+     309.4678249645032
+    ]
+   ],
+   "length_m": 1304.8836318911324,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 16,
+   "try_id": 26,
+   "via": [
+    [
+     714.1274009122741,
+     606.1463794965392
+    ]
+   ],
+   "length_m": 1260.8230221187077,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 17,
+   "try_id": 29,
+   "via": [
+    [
+     355.070424148001,
+     910.7218562466113
+    ]
+   ],
+   "length_m": 1372.777232003672,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 18,
+   "try_id": 30,
+   "via": [
+    [
+     858.0918405695043,
+     288.5320700414257
+    ]
+   ],
+   "length_m": 1383.8188070795707,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 19,
+   "try_id": 31,
+   "via": [
+    [
+     638.8213321374658,
+     312.01338707801125
+    ]
+   ],
+   "length_m": 1233.9224365405018,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 20,
+   "try_id": 33,
+   "via": [
+    [
+     465.63016928164336,
+     601.0295576367777
+    ]
+   ],
+   "length_m": 1059.2773961850817,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 21,
+   "try_id": 35,
+   "via": [
+    [
+     1031.7948354337057,
+     306.09990610855976
+    ]
+   ],
+   "length_m": 1606.0540423937036,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 22,
+   "try_id": 36,
+   "via": [
+    [
+     764.5167919468477,
+     458.24632668204265
+    ]
+   ],
+   "length_m": 1358.707640511686,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 23,
+   "try_id": 38,
+   "via": [
+    [
+     346.8770207424031,
+     543.0572001706619
+    ]
+   ],
+   "length_m": 1108.2586404485437,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 24,
+   "try_id": 39,
+   "via": [
+    [
+     195.99599694699668,
+     424.49628611791337
+    ]
+   ],
+   "length_m": 1144.9369640745895,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 25,
+   "try_id": 40,
+   "via": [
+    [
+     824.6497182029542,
+     9.488038088915943
+    ]
+   ],
+   "length_m": 1527.0380055503852,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 26,
+   "try_id": 41,
+   "via": [
+    [
+     625.6045905370222,
+     351.3464346291693
+    ]
+   ],
+   "length_m": 1264.6494935769929,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 27,
+   "try_id": 44,
+   "via": [
+    [
+     65.09628498262543,
+     572.5333191400281
+    ]
+   ],
+   "length_m": 1705.6943614928834,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 28,
+   "try_id": 45,
+   "via": [
+    [
+     894.6935763833194,
+     491.7283183640209
+    ]
+   ],
+   "length_m": 1459.7358866950822,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ],
+   "mission_ok": false,
+   "excluded_reason": "corner 34: fillet radius 459.55 m does not fit its segments"
+  },
+  {
+   "route_id": 29,
+   "try_id": 51,
+   "via": [
+    [
+     665.4003132054761,
+     528.1782080660233
+    ]
+   ],
+   "length_m": 1096.6404796321694,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ],
+   "mission_ok": false,
+   "excluded_reason": "corner 10: fillet radius 6986.30 m does not fit its segments"
+  },
+  {
+   "route_id": 30,
+   "try_id": 52,
+   "via": [
+    [
+     586.2328008552779,
+     726.278767283609
+    ]
+   ],
+   "length_m": 1074.3520386912564,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 31,
+   "try_id": 54,
+   "via": [
+    [
+     131.51986818403492,
+     514.5810098240906
+    ]
+   ],
+   "length_m": 1471.825500229052,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 32,
+   "try_id": 55,
+   "via": [
+    [
+     906.9750089750543,
+     289.5313488158347
+    ]
+   ],
+   "length_m": 1497.5128697810687,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 33,
+   "try_id": 56,
+   "via": [
+    [
+     602.9744603580024,
+     431.9314975865593
+    ]
+   ],
+   "length_m": 1159.8069411245535,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 34,
+   "try_id": 59,
+   "via": [
+    [
+     150.99905679273127,
+     761.1479747564914
+    ]
+   ],
+   "length_m": 1311.464029708814,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 35,
+   "try_id": 60,
+   "via": [
+    [
+     835.104387580742,
+     133.12255833373922
+    ]
+   ],
+   "length_m": 1451.9325944726793,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 36,
+   "try_id": 61,
+   "via": [
+    [
+     649.2124000888139,
+     487.0646973883138
+    ]
+   ],
+   "length_m": 1577.6166659383257,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 37,
+   "try_id": 62,
+   "via": [
+    [
+     580.5155536911628,
+     520.2461807913277
+    ]
+   ],
+   "length_m": 1123.8406619721839,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 38,
+   "try_id": 65,
+   "via": [
+    [
+     678.2223767331698,
+     225.54238350420238
+    ]
+   ],
+   "length_m": 1240.193624177773,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 39,
+   "try_id": 66,
+   "via": [
+    [
+     534.0699899926875,
+     222.3939522586032
+    ]
+   ],
+   "length_m": 1268.0889823825378,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 40,
+   "try_id": 70,
+   "via": [
+    [
+     988.9891101760095,
+     378.26555949959163
+    ]
+   ],
+   "length_m": 1552.862119868354,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 41,
+   "try_id": 71,
+   "via": [
+    [
+     733.2863166394526,
+     480.8775649718638
+    ]
+   ],
+   "length_m": 1250.6463521525416,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 42,
+   "try_id": 72,
+   "via": [
+    [
+     640.1958760216955,
+     544.9149041259869
+    ]
+   ],
+   "length_m": 1119.5320238252216,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 43,
+   "try_id": 73,
+   "via": [
+    [
+     417.4909839464984,
+     547.5867425569104
+    ]
+   ],
+   "length_m": 974.8203414874243,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 44,
+   "try_id": 75,
+   "via": [
+    [
+     1090.1598235152383,
+     474.7232957918826
+    ]
+   ],
+   "length_m": 1753.0163505774706,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 45,
+   "try_id": 78,
+   "via": [
+    [
+     565.1165871461604,
+     792.1368765240829
+    ]
+   ],
+   "length_m": 989.5921510206078,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 46,
+   "try_id": 79,
+   "via": [
+    [
+     251.20649169263265,
+     871.6668507416879
+    ]
+   ],
+   "length_m": 1296.1892476628434,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 47,
+   "try_id": 80,
+   "via": [
+    [
+     923.0571879915756,
+     334.06802791391243
+    ]
+   ],
+   "length_m": 1476.6316761299136,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 48,
+   "try_id": 89,
+   "via": [
+    [
+     92.8109616726203,
+     880.7715707902817
+    ]
+   ],
+   "length_m": 1481.897283329908,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 49,
+   "try_id": 90,
+   "via": [
+    [
+     745.0378739085791,
+     267.450443620291
+    ]
+   ],
+   "length_m": 1288.7330903643965,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 50,
+   "try_id": 91,
+   "via": [
+    [
+     743.3609132999884,
+     427.6171400166724
+    ]
+   ],
+   "length_m": 1330.6959674808613,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 51,
+   "try_id": 95,
+   "via": [
+    [
+     831.4322325206922,
+     167.59950445722538
+    ]
+   ],
+   "length_m": 1407.512708491008,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 52,
+   "try_id": 96,
+   "via": [
+    [
+     668.3461557394459,
+     447.0060618222641
+    ]
+   ],
+   "length_m": 1300.032767075256,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 53,
+   "try_id": 98,
+   "via": [
+    [
+     566.2512578676834,
+     737.8583532593981
+    ]
+   ],
+   "length_m": 1299.2271669379893,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 54,
+   "try_id": 100,
+   "via": [
+    [
+     722.5964797315344,
+     266.2784167182655
+    ]
+   ],
+   "length_m": 1266.4723052551103,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 55,
+   "try_id": 107,
+   "via": [
+    [
+     450.22357534714087,
+     331.9440165256645
+    ],
+    [
+     387.23217083639327,
+     381.41906951325416
+    ]
+   ],
+   "length_m": 1233.8788930331136,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 56,
+   "try_id": 108,
+   "via": [
+    [
+     441.3664461214556,
+     698.5738892412475
+    ]
+   ],
+   "length_m": 1051.4251792544865,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 57,
+   "try_id": 110,
+   "via": [
+    [
+     1022.1227827424525,
+     354.1891502957177
+    ]
+   ],
+   "length_m": 1600.2234385478791,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 58,
+   "try_id": 115,
+   "via": [
+    [
+     772.1343070508276,
+     176.1465711113621
+    ]
+   ],
+   "length_m": 1334.2622561144526,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 59,
+   "try_id": 116,
+   "via": [
+    [
+     692.1669205827859,
+     347.4484941486345
+    ]
+   ],
+   "length_m": 1258.1538276093922,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 60,
+   "try_id": 118,
+   "via": [
+    [
+     490.8479602899871,
+     766.1873651523382
+    ]
+   ],
+   "length_m": 997.5718400280427,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 61,
+   "try_id": 119,
+   "via": [
+    [
+     264.2816652312501,
+     717.1620760098548
+    ]
+   ],
+   "length_m": 1149.3213783427332,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 62,
+   "try_id": 120,
+   "via": [
+    [
+     897.7691378500906,
+     225.5733212171351
+    ]
+   ],
+   "length_m": 1481.7216502929716,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 63,
+   "try_id": 125,
+   "via": [
+    [
+     711.0775793639119,
+     139.21340483437083
+    ]
+   ],
+   "length_m": 1272.14421007397,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 64,
+   "try_id": 129,
+   "via": [
+    [
+     95.96299925886774,
+     902.2732020230198
+    ]
+   ],
+   "length_m": 1501.3978411833282,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 65,
+   "try_id": 132,
+   "via": [
+    [
+     367.3777944475421,
+     302.3982535855609
+    ]
+   ],
+   "length_m": 990.8527725970638,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 66,
+   "try_id": 133,
+   "via": [
+    [
+     525.5972625794119,
+     815.8708060520318
+    ]
+   ],
+   "length_m": 1004.6480428803418,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 67,
+   "try_id": 134,
+   "via": [
+    [
+     95.02513959314149,
+     472.87540349324956
+    ]
+   ],
+   "length_m": 1363.734536408505,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 68,
+   "try_id": 135,
+   "via": [
+    [
+     1077.0149343860728,
+     271.7580985309788
+    ]
+   ],
+   "length_m": 1708.2087432085482,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 69,
+   "try_id": 136,
+   "via": [
+    [
+     657.3920948254092,
+     398.86880902893506
+    ]
+   ],
+   "length_m": 1277.5631272877479,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 70,
+   "try_id": 140,
+   "via": [
+    [
+     968.1193525952579,
+     270.0319589908096
+    ]
+   ],
+   "length_m": 1534.3671192621007,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 71,
+   "try_id": 145,
+   "via": [
+    [
+     664.9046809782114,
+     165.55154121512732
+    ]
+   ],
+   "length_m": 1239.7972650604565,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 72,
+   "try_id": 148,
+   "via": [
+    [
+     419.0393493790589,
+     684.0542734629565
+    ]
+   ],
+   "length_m": 1107.455273761644,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 73,
+   "try_id": 150,
+   "via": [
+    [
+     882.4021262681238,
+     349.7315208570635
+    ]
+   ],
+   "length_m": 1457.8699803869267,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 74,
+   "try_id": 151,
+   "via": [
+    [
+     704.3823427657421,
+     555.5911774850366
+    ]
+   ],
+   "length_m": 1121.82142593462,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 75,
+   "try_id": 154,
+   "via": [
+    [
+     183.8106506876294,
+     778.3567778017083
+    ]
+   ],
+   "length_m": 1298.489143521178,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 76,
+   "try_id": 155,
+   "via": [
+    [
+     770.4716598082831,
+     280.6512450737632
+    ]
+   ],
+   "length_m": 1296.533803218082,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 77,
+   "try_id": 156,
+   "via": [
+    [
+     720.6183536043377,
+     454.27345747816236
+    ]
+   ],
+   "length_m": 1321.4037294557781,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 78,
+   "try_id": 159,
+   "via": [
+    [
+     180.79546928392597,
+     651.1701425996055
+    ]
+   ],
+   "length_m": 1539.6483008377343,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 79,
+   "try_id": 161,
+   "via": [
+    [
+     650.5896805534765,
+     329.21969575691116
+    ]
+   ],
+   "length_m": 1255.8910194793793,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 80,
+   "try_id": 165,
+   "via": [
+    [
+     882.3023845636308,
+     310.70878559689163
+    ]
+   ],
+   "length_m": 1505.1658883578152,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 81,
+   "try_id": 169,
+   "via": [
+    [
+     187.44182006633548,
+     821.3152278874124
+    ]
+   ],
+   "length_m": 1319.1660363262597,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 82,
+   "try_id": 170,
+   "via": [
+    [
+     688.5737899818728,
+     267.9323494186257
+    ]
+   ],
+   "length_m": 1237.7103414031471,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 83,
+   "try_id": 173,
+   "via": [
+    [
+     495.93670039993697,
+     616.6007133280619
+    ]
+   ],
+   "length_m": 1099.6397905540225,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 84,
+   "try_id": 174,
+   "via": [
+    [
+     174.5154729807204,
+     694.1344200385274
+    ]
+   ],
+   "length_m": 1247.4123333652901,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 85,
+   "try_id": 175,
+   "via": [
+    [
+     1034.7859624863172,
+     428.231965020816
+    ]
+   ],
+   "length_m": 1641.201625192351,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 86,
+   "try_id": 179,
+   "via": [
+    [
+     331.96220990577064,
+     881.7289638325524
+    ]
+   ],
+   "length_m": 1241.3814530740965,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 87,
+   "try_id": 180,
+   "via": [
+    [
+     945.5979212911391,
+     71.32687182413929
+    ]
+   ],
+   "length_m": 1624.5195453974275,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 88,
+   "try_id": 181,
+   "via": [
+    [
+     481.6482922043159,
+     226.28887323295405
+    ]
+   ],
+   "length_m": 1391.1886742766842,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 89,
+   "try_id": 182,
+   "via": [
+    [
+     706.9696731239195,
+     699.2589565779896
+    ]
+   ],
+   "length_m": 1039.2312483689975,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 90,
+   "try_id": 185,
+   "via": [
+    [
+     836.255666983326,
+     234.05892463499578
+    ]
+   ],
+   "length_m": 1586.9951116066118,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 91,
+   "try_id": 189,
+   "via": [
+    [
+     137.48481995694578,
+     494.60205045185063
+    ]
+   ],
+   "length_m": 1594.636504933479,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 92,
+   "try_id": 190,
+   "via": [
+    [
+     1031.6298347556205,
+     251.04084366519038
+    ]
+   ],
+   "length_m": 1637.9210729020406,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 93,
+   "try_id": 191,
+   "via": [
+    [
+     555.9026548081408,
+     267.8639601534694
+    ]
+   ],
+   "length_m": 1038.2166817318907,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 94,
+   "try_id": 192,
+   "via": [
+    [
+     581.7771801008198,
+     598.4494291835888
+    ]
+   ],
+   "length_m": 1022.0791259477016,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 95,
+   "try_id": 197,
+   "via": [
+    [
+     653.5698596979526,
+     573.6761094350724
+    ],
+    [
+     614.0594195505577,
+     682.4788194543645
+    ]
+   ],
+   "length_m": 1375.3841502611122,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 96,
+   "try_id": 202,
+   "via": [
+    [
+     683.8208440338057,
+     745.8527320258089
+    ]
+   ],
+   "length_m": 1061.810399795416,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 97,
+   "try_id": 209,
+   "via": [
+    [
+     163.4704201872221,
+     586.4359099066912
+    ]
+   ],
+   "length_m": 1178.6747189495127,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 98,
+   "try_id": 211,
+   "via": [
+    [
+     766.1777193561327,
+     472.19083133363745
+    ]
+   ],
+   "length_m": 1358.9793761363112,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 99,
+   "try_id": 214,
+   "via": [
+    [
+     266.5429206819856,
+     832.9186139059046
+    ]
+   ],
+   "length_m": 1244.6579192059967,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 100,
+   "try_id": 222,
+   "via": [
+    [
+     655.0670719632018,
+     628.1395828947011
+    ]
+   ],
+   "length_m": 1033.1612803879357,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 101,
+   "try_id": 226,
+   "via": [
+    [
+     656.510545798402,
+     480.30917415854736
+    ]
+   ],
+   "length_m": 1066.8212489156676,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 102,
+   "try_id": 229,
+   "via": [
+    [
+     192.85780366317357,
+     932.3326469951646
+    ]
+   ],
+   "length_m": 1444.668389535887,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 103,
+   "try_id": 230,
+   "via": [
+    [
+     1075.978557163994,
+     300.4773719679867
+    ]
+   ],
+   "length_m": 1683.1395067242747,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 104,
+   "try_id": 231,
+   "via": [
+    [
+     806.6153544055871,
+     567.8586416393314
+    ]
+   ],
+   "length_m": 1065.9839056329988,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 105,
+   "try_id": 234,
+   "via": [
+    [
+     192.00709473104837,
+     907.1555852484996
+    ]
+   ],
+   "length_m": 1675.132465559138,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 106,
+   "try_id": 235,
+   "via": [
+    [
+     957.1362463549103,
+     93.09464401146425
+    ]
+   ],
+   "length_m": 1692.5745627793817,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 107,
+   "try_id": 239,
+   "via": [
+    [
+     305.9317820925561,
+     668.3846559873023
+    ]
+   ],
+   "length_m": 1112.4172263795754,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 108,
+   "try_id": 241,
+   "via": [
+    [
+     567.1474039541529,
+     308.69840854018344
+    ]
+   ],
+   "length_m": 1057.4656603038507,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 109,
+   "try_id": 245,
+   "via": [
+    [
+     934.042057977925,
+     431.48184762630103
+    ]
+   ],
+   "length_m": 1472.072787434502,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 110,
+   "try_id": 246,
+   "via": [
+    [
+     798.4999894891193,
+     512.186220401874
+    ]
+   ],
+   "length_m": 1236.715486048151,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 111,
+   "try_id": 249,
+   "via": [
+    [
+     95.90279441300754,
+     497.2888832201917
+    ]
+   ],
+   "length_m": 1574.0418496155703,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 112,
+   "try_id": 250,
+   "via": [
+    [
+     738.324841403881,
+     159.8157103958855
+    ]
+   ],
+   "length_m": 1315.0215574042193,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 113,
+   "try_id": 252,
+   "via": [
+    [
+     608.7747130765829,
+     725.0706597465903
+    ]
+   ],
+   "length_m": 1090.1351455877443,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 114,
+   "try_id": 254,
+   "via": [
+    [
+     410.3876184067931,
+     768.1765311510562
+    ]
+   ],
+   "length_m": 1094.7329294546955,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 115,
+   "try_id": 255,
+   "via": [
+    [
+     938.8868281424698,
+     107.46567453741591
+    ]
+   ],
+   "length_m": 1678.8923748597908,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 0,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 116,
+   "try_id": 262,
+   "via": [
+    [
+     623.9233798341234,
+     584.3818865576164
+    ]
+   ],
+   "length_m": 1033.5714883712312,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 117,
+   "try_id": 263,
+   "via": [
+    [
+     298.6885185919113,
+     535.6554971832406
+    ]
+   ],
+   "length_m": 1043.693427101269,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 118,
+   "try_id": 271,
+   "via": [
+    [
+     715.5473595388489,
+     538.8313580352653
+    ]
+   ],
+   "length_m": 1119.559934771982,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ],
+   "mission_ok": false,
+   "excluded_reason": "corner 10: fillet radius 6986.30 m does not fit its segments"
+  },
+  {
+   "route_id": 119,
+   "try_id": 272,
+   "via": [
+    [
+     689.0151747003398,
+     718.5760412947739
+    ]
+   ],
+   "length_m": 1030.4797374134403,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 120,
+   "try_id": 279,
+   "via": [
+    [
+     305.36076802333355,
+     868.4102477167645
+    ]
+   ],
+   "length_m": 1242.3361181258333,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 121,
+   "try_id": 281,
+   "via": [
+    [
+     732.2570837153202,
+     522.5016509007172
+    ]
+   ],
+   "length_m": 1056.6879491204127,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 1,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 122,
+   "try_id": 284,
+   "via": [
+    [
+     170.7796666646159,
+     526.1354410142613
+    ]
+   ],
+   "length_m": 1158.8877725586349,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 123,
+   "try_id": 290,
+   "via": [
+    [
+     270.902840496468,
+     924.1554610742346
+    ]
+   ],
+   "length_m": 1571.8931402238954,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 124,
+   "try_id": 293,
+   "via": [
+    [
+     209.0208282461769,
+     693.6112882359184
+    ]
+   ],
+   "length_m": 1198.2582857182208,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 4,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 125,
+   "try_id": 306,
+   "via": [
+    [
+     544.7285403393257,
+     587.9911838756384
+    ]
+   ],
+   "length_m": 1035.3435449012024,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 126,
+   "try_id": 324,
+   "via": [
+    [
+     526.43679896859,
+     537.2878910037604
+    ]
+   ],
+   "length_m": 1607.864776953617,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 127,
+   "try_id": 342,
+   "via": [
+    [
+     566.2252228160598,
+     666.313643907572
+    ],
+    [
+     699.8548070213778,
+     690.674412079201
+    ]
+   ],
+   "length_m": 1193.4495604077638,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 128,
+   "try_id": 354,
+   "via": [
+    [
+     391.43238333647923,
+     314.09065423615203
+    ],
+    [
+     550.7648594719187,
+     629.9626607055785
+    ]
+   ],
+   "length_m": 998.5859423315374,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 129,
+   "try_id": 358,
+   "via": [
+    [
+     638.5068991742065,
+     630.9358026518579
+    ],
+    [
+     712.1680232557633,
+     689.6270531156304
+    ]
+   ],
+   "length_m": 1093.7462850137622,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 130,
+   "try_id": 369,
+   "via": [
+    [
+     538.014560840395,
+     831.7417820761692
+    ]
+   ],
+   "length_m": 1014.6166590265725,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 131,
+   "try_id": 372,
+   "via": [
+    [
+     619.8010359398193,
+     563.7967355710622
+    ]
+   ],
+   "length_m": 1227.8940203957832,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 132,
+   "try_id": 374,
+   "via": [
+    [
+     578.2295492574272,
+     453.0170009544063
+    ],
+    [
+     625.0180175809091,
+     591.3027649919535
+    ]
+   ],
+   "length_m": 1207.219804115781,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 133,
+   "try_id": 380,
+   "via": [
+    [
+     677.4946422331677,
+     649.8625742611438
+    ]
+   ],
+   "length_m": 1109.4732774427498,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 134,
+   "try_id": 383,
+   "via": [
+    [
+     485.9071008820828,
+     784.5515698604355
+    ]
+   ],
+   "length_m": 1013.9037204657325,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 135,
+   "try_id": 391,
+   "via": [
+    [
+     453.6579768478349,
+     748.9443923827248
+    ]
+   ],
+   "length_m": 1017.3315287947303,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 3,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 136,
+   "try_id": 408,
+   "via": [
+    [
+     620.594418946988,
+     635.3063083773227
+    ]
+   ],
+   "length_m": 1033.1247012561478,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 137,
+   "try_id": 414,
+   "via": [
+    [
+     543.4826289863663,
+     568.5538133327715
+    ],
+    [
+     650.3609045913108,
+     680.7856968317542
+    ]
+   ],
+   "length_m": 1058.1652004484909,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 138,
+   "try_id": 416,
+   "via": [
+    [
+     384.11632098023654,
+     338.1004511349172
+    ]
+   ],
+   "length_m": 987.7416191755967,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 139,
+   "try_id": 441,
+   "via": [
+    [
+     535.9822983764916,
+     359.61868278926516
+    ],
+    [
+     617.7248971852421,
+     617.8251247190917
+    ]
+   ],
+   "length_m": 1230.0320203319945,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 140,
+   "try_id": 453,
+   "via": [
+    [
+     533.3114391348288,
+     383.4000486131104
+    ],
+    [
+     687.9965772515033,
+     641.9332221822958
+    ]
+   ],
+   "length_m": 1199.5791128301971,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 141,
+   "try_id": 458,
+   "via": [
+    [
+     679.1001301565976,
+     668.7532099462695
+    ]
+   ],
+   "length_m": 1043.2165472578436,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 142,
+   "try_id": 468,
+   "via": [
+    [
+     655.8682367824155,
+     739.7352452747577
+    ]
+   ],
+   "length_m": 1002.3431845800512,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 143,
+   "try_id": 471,
+   "via": [
+    [
+     492.3861719057667,
+     277.99829382098096
+    ],
+    [
+     618.7076820730631,
+     683.4871300724747
+    ]
+   ],
+   "length_m": 1270.2143207630465,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 144,
+   "try_id": 494,
+   "via": [
+    [
+     559.363667774039,
+     693.9212883515526
+    ]
+   ],
+   "length_m": 1000.1887610008173,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 145,
+   "try_id": 496,
+   "via": [
+    [
+     643.4257776774949,
+     602.039716007612
+    ]
+   ],
+   "length_m": 1047.474881927532,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 146,
+   "try_id": 497,
+   "via": [
+    [
+     588.1025356871003,
+     457.6505412523751
+    ],
+    [
+     666.9048810358413,
+     649.9854808503159
+    ]
+   ],
+   "length_m": 1276.3252349004842,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 147,
+   "try_id": 504,
+   "via": [
+    [
+     520.4632995327637,
+     469.7277733196175
+    ]
+   ],
+   "length_m": 1035.7796491804038,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ],
+   "mission_ok": false,
+   "excluded_reason": "corner 20: fillet radius 599.09 m does not fit its segments"
+  },
+  {
+   "route_id": 148,
+   "try_id": 522,
+   "via": [
+    [
+     584.3607613711594,
+     629.250182132312
+    ]
+   ],
+   "length_m": 996.0971999468018,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 149,
+   "try_id": 527,
+   "via": [
+    [
+     631.8010142430372,
+     547.7269298374009
+    ],
+    [
+     537.0105986628705,
+     622.1692907307653
+    ]
+   ],
+   "length_m": 1277.6277262647534,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  },
+  {
+   "route_id": 150,
+   "try_id": 528,
+   "via": [
+    [
+     538.9459762518064,
+     657.0010796175296
+    ]
+   ],
+   "length_m": 1242.2104897195218,
+   "benchmark": false,
+   "n_parts": 1,
+   "band": 2,
+   "corner_keys": [
+    "poly",
+    "radius",
+    "via"
+   ]
+  }
+ ]
+}
